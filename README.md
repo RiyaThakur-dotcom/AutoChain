@@ -1,47 +1,95 @@
-# 🦊 AutoChain — Decentralized Vehicle Telemetry
+# 🦊 AutoChain: Decentralized Vehicle Telemetry
 
-**The source of truth for autonomous machines. Every move, audited on-chain.**
+**A high-fidelity auditing protocol for autonomous machines. Built for the future of on-chain accountability.**
 
-![Official Thumbnail](./public/thumbnail.png)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Sepolia Testnet](https://img.shields.io/badge/Network-Sepolia-blueviolet.svg)](https://sepolia.etherscan.io/)
+[![Billion Dollar Design](https://img.shields.io/badge/Design-Billion--Dollar--Startup-neonblue.svg)]()
+
+---
 
 ## 🚀 The Vision
-Off-road autonomous vehicles make life-or-death decisions with zero accountability. **AutoChain** solves this by logging cryptographic proofs of every telemetry event (GPS, Speed, Terrain, Decisions) onto the Ethereum blockchain. It's tamper-proof, auditable, and verified by code — not companies.
+Off-road autonomous vehicles (mining, military, logistics) often operate in "black boxes." When critical decisions are made, there is zero public accountability. **AutoChain** transforms these opaque AI telemetry streams into **immutable, verifiable on-chain evidence**. 
 
-## 💎 Features
-- **Billion-Dollar HUD:** A high-fidelity, dark-mode command center for real-time fleet monitoring.
-- **Immutable Audit Trail:** All AI decision logic is hashed and logged on the **Sepolia Testnet**.
-- **ZK-Lite Safety Proofs:** Verifiable mathematical proofs of vehicle state without exposing private data.
-- **AI Optimization:** Smart contract integration for gas-efficient real-time logging.
+By logging cryptographic proofs of every sensor event and decision reason, we ensure that automation is safer, auditable, and trusted by code — not just companies.
 
-## 🛠️ Built With
-- **Frontend:** React + Tailwind CSS v4 + Framer Motion
-- **Smart Contracts:** Solidity (Hardhat)
-- **Networking:** Ethers.js + Sepolia Testnet
-- **Simulator:** Python + Web3.py
+---
+
+## 💎 Premium Features
+
+### 🖥️ Mission Control HUD
+A production-grade, dark-mode command center designed with glassmorphism and real-time data visualization. Monitor your fleet's health with standard-setting UI/UX.
+
+### 🛡️ Immutable Audit Trail
+Every telemetry packet (GPS, Speed, Terrain, Logic) is hashed and anchored to the Ethereum blockchain. Any third party can verify a safety proof without exposing sensitive operational data.
+
+### ⚡ Gas-Optimized Telemetry
+Uses a specialized Merkle-Proof strategy to keep transaction costs at an absolute minimum while maintaining 100% data integrity.
+
+### 🤖 AI Integrity
+Ensures that the AI aboard the vehicle is operating within safety parameters, with all deviations logged as "Emergency Events" for immediate review.
+
+---
+
+## 🛠️ The Tech Stack
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Frontend** | React, Tailwind CSS v4, Framer Motion, GSAP |
+| **Blockchain** | Solidity, Hardhat, Ethers.js, Sepolia Testnet |
+| **Simulator** | Python 3.x, Web3.py, Hashlib |
+| **Integrations** | MetaMask SDK, WalletConnect |
+
+---
 
 ## 📦 Project Structure
-```bash
+
+```text
 ├── contracts/        # Solidity Smart Contracts (AutoChain.sol)
-├── frontend/         # Premium React + Tailwind Command Center
-├── scripts/          # Hardhat Deployment & Setup Scripts
-└── simulator/        # Python Telemetry & Decision Simulator
+├── frontend/         # Premium React Command Center (Vite)
+├── scripts/          # Automation & Deployment Logic
+├── simulator/        # High-Fidelity Telemetry Simulator (Python)
+└── public/           # Branding Assets & Thumbnails
 ```
 
-## 🚀 Quick Start
-1. **Clone the Repo:**
-   ```bash
-   git clone https://github.com/RiyaThakur-dotcom/AutoChain.git
-   ```
-2. **Install Frontend:**
-   ```bash
-   cd frontend && npm install && npm run dev
-   ```
-3. **Run Simulator:**
-   ```bash
-   cd simulator && pip install -r requirements.txt && python simulator.py
-   ```
-
-## 🏆 Hackathon Context
-Designed for a premium Web3 experience. Part of the **Billion-Dollar Web3 Startup** aesthetic series.
 ---
-*Built with ❤️ by Riya Thakur*
+
+## 🚀 Quick Start Guide
+
+### 1. Repository Setup
+```bash
+git clone https://github.com/RiyaThakur-dotcom/AutoChain.git
+cd AutoChain
+```
+
+### 2. Launch the Portal (Frontend)
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Initiate the Fleet (Simulator)
+```bash
+cd simulator
+pip install -r requirements.txt
+python simulator.py
+```
+
+---
+
+## 🎖️ Accomplishments
+- **48-Hour Sprint:** Achieved a full-stack Web3 integration with a professional-grade UI.
+- **Security First:** Implemented tamper-proof hashing as the core protocol logic.
+- **Universal Dashboard:** Designed to handle real-world telemetry streams with millisecond precision.
+
+---
+
+## 🔮 What's Next?
+- **Multi-Chain Fleet Management:** Scaling to Layer-2 (Arbitrum/Optimism) for zero-cost logging.
+- **Hardware Oracles:** Direct integration with on-vehicle LIDAR and GPS sensors.
+- **Goverance DAO:** Community-driven safety parameters for autonomous fleet operations.
+
+---
+
+*Handcrafted with ❤️ by [Riya Thakur](https://github.com/RiyaThakur-dotcom)*
