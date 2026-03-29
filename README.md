@@ -2,7 +2,7 @@
 
 **The source of truth for autonomous machines. Every move, audited on-chain.**
 
-![Official Thumbnail](file:///C:/Users/Riya%20thakur/.gemini/antigravity/brain/afeb71ef-dbdb-4fc4-bf88-cf6af809280d/autochain_official_thumbnail_1774789363069.png)
+![Official Thumbnail](./public/thumbnail.png)
 
 ## 🚀 The Vision
 Off-road autonomous vehicles make life-or-death decisions with zero accountability. **AutoChain** solves this by logging cryptographic proofs of every telemetry event (GPS, Speed, Terrain, Decisions) onto the Ethereum blockchain. It's tamper-proof, auditable, and verified by code — not companies.
