@@ -2,6 +2,7 @@
 
 **A high-fidelity auditing protocol for autonomous machines. Built for the future of on-chain accountability.**
 
+[![Live Portal](https://img.shields.io/badge/Live-Portal-brightgreen.svg)](https://auto-chain-5tp9q2c4e-riyathakur-dotcoms-projects.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Sepolia Testnet](https://img.shields.io/badge/Network-Sepolia-blueviolet.svg)](https://sepolia.etherscan.io/)
 [![Billion Dollar Design](https://img.shields.io/badge/Design-Billion--Dollar--Startup-neonblue.svg)]()
